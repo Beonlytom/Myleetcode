@@ -4,7 +4,6 @@ def isValid(s):
         if i == "(" or i =="[" or i =="{":
             stack.append(i)
         if i == ")" or i =="]" or i =="}":
-            print("cazzo" + i)
             if stack == []:
                 return False
             if i == ")":
